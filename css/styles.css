@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: OpenSansMedium;
+    src: url("../fonts/OpenSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url("../fonts/BebasNeue Regular.ttf");
+}
+
+body {
+    font-family: OpenSans, sans-serif;
+}
+
+.header-back {
+    background-size: cover;
+    background-position: center;
+    padding: 42px 0 71px 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.header-back__slogan {
+    margin: 317px auto 221px auto;
+    text-align: center;
+}
+
+.slogan-title {
+    font-family: 'BebasNeue',sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5.70937px;
+    color: #FFFFFF;
+    margin-bottom: 21px;
+}
+
+.slogan-text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.header-back__scroll {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 3.7px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.header-navigation {
+    padding: 24px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E6E6E6;
+
+}
+
+.header-navigation .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.menu-item {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 1.09091px;
+    color: #48555B;
+}
+
+.menu-item:hover {
+    color: #00A4E5;
+}
+
+.story {
+    background: #FFFFFF;
+    padding: 57px 0 39px 0;
+}
+
+.story__title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+    padding-bottom: 10px;
+}
+
+.story__title span {
+    border-bottom: 2px solid #00A4E5;
+}
+
+
+.story__box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 500px));
+    gap: 77px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+    margin-top: 60px;
+}
+
+.story__box-info {
+    max-width: 406px;
+}
+
+.box-info-found {
+    font-size: 20px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.box-info-found span {
+    color: #00A4E5;
+}
+
+.box-info-text {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+    max-width: 453px;
+}
+
+.story__box-images {
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-image {
+    width: 140px;
+    background-size: cover;
+    background-position: center;
+    padding: 15px 22px 152px 15px;
+
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1875px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+button {
+    width: 150px;
+    background: #00A4E5;
+    padding: 11px;
+    text-align: center;
+    border: 0;
+    outline: none;
+
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.story__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.story__footer-actions {
+    display: flex;
+    align-items: center;
+}
+
+.story__footer-actions button {
+    margin-left: 60px;
+}
+
+.benefits {
+    padding-top: 36px;
+}
+
+.benefits .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.benefits_advantage {
+    padding: 39px 23px;
+    width: 295px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+}
+
+.advantage-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    letter-spacing: 0.426667px;
+    color: #48555B;
+    margin: 25px 0 13px 0;
+}
+
+
+.advantage-text {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+}
+
+.amazing {
+    background-position: center;
+    background-size: cover;
+    padding: 320px 0 431px 0;
+    text-align: center;
+    display: flex;
+}
+
+.amazing__title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #48555B;
+    margin-bottom: 35px;
+    max-width: 350px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer-search {
+    padding: 30px 0;
+}
+
+.footer-search .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-search__title {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    margin-right: 70px;
+}
+
+.footer-search__action input {
+    width: 250px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    padding: 10px 16px;
+    outline: none;
+}
+
+.footer-search__action input::placeholder {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.07px;
+    color: #48555B;
+}
+
+.footer-search__action button {
+    margin-left: -5px;
+}
+
+.footer-navigation {
+    padding: 40px 0;
+}
+
+.footer-navigation .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-navigation__company {
+    max-width: 250px;
+}
+
+.company-title {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    margin-bottom: 19px;
+    text-decoration: none;
+}
+
+.footer-navigation__company .advantage-text {
+    color: #FFFFFF;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+}
+
+.footer-navigation__company .logo {
+    margin-bottom: 15px;
+    margin-top: 19px;
+    text-align: left;
+}
+
+.footer-navigation__links {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.company-subtitle {
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: bold;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.company-title.address {
+    width: 141px;
+    margin-bottom: 0;
+    height: 110px;
+}
+
+.footer-navigation__socials {
+    height: 90px;
+}
+
+.footer-navigation__socials a {
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+
+
+
+
